@@ -1,0 +1,68 @@
+/* Add a background color to the body */
+body {
+    background-color: #f0f8ff; /* Alice blue background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Update the .main styles */
+.main {
+    padding: 30px 40px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffebcd; /* Blanched Almond background */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* add some depth with a box shadow */
+}
+
+/* Add some spacing between form elements */
+form > * {
+    margin-bottom: 15px;
+}
+
+/* Style the input fields */
+input[type="text"] {
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #ff69b4; /* Hot pink border on focus */
+    outline: none;
+}
+
+/* Style the button */
+button[type="submit"] {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #ff69b4; /* Hot pink button */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff1493; /* Deep pink on hover */
+}
+
+/* Style the error message */
+h4 {
+    color: #ff6347; /* Tomato red for error message */
+    margin-top: 10px;
+    font-size: 14px;
+}
